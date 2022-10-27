@@ -1,0 +1,420 @@
+
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+/*   background-color: black;  */
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(image/computer.jpg);
+  border: 6px solid #333;
+  
+
+ 
+  
+}
+  ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+  
+}
+.logo{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+span{
+  color: red;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px 30px;
+  
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+nav ul li a:hover{
+  color: red;
+  transition: .3s;
+}
+.content{
+/*  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-150%);
+*/
+margin: 150px 90px;
+line-height: 100px;
+letter-spacing: 3px;
+}
+.content h6{
+  color: white;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+  position: absolute;
+  left: 80px;
+}
+.content h5{
+  color: white;
+  margin: 10px 0px 10px;
+  font-size: 55px;
+  position: absolute;
+  left: 60px;
+}
+.content h3{
+  color: white;
+  font-size: 25px;
+  margin-bottom: 40px;
+   position: absolute;
+  left: 60px;
+  
+}
+/*h6{
+  
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+   position: absolute;
+  left: 50px;
+  
+}*/
+button{
+  border: none;
+  background: red;
+  padding: 12px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .4s;
+  
+}
+button:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+img{
+  float: right;
+    height: auto;
+  width: 420px;
+}
+*{
+ padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+  
+}
+.about{
+  width: 100%;
+  padding: 75px 0px;
+  background-color: #191919;
+}
+.about img{
+  height: auto;
+  width: 420px;
+}
+.about_text{
+  width: 550px;
+}
+.main{
+  width: 1130px;
+  max-width: 75%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about_text h1{
+  color: white;
+  font-size: 80px;
+  text-transform: capitalize;
+  margin-button: 20px;
+}
+.hi h4{
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+span{
+  color: #f9004d;
+  
+}
+.about-text p{
+ color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  
+
+}
+button{
+  background: #f9004d;
+  color: white;
+  tex-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+  
+}
+button:hover{
+  background: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+section{
+  padding: 40px 15px;
+}
+.contact_intro{
+   width: 100%;
+  padding: 75px 0px;
+  background-color: #191919;
+
+
+}
+.contact{
+  background: #101010
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 6rem;
+  background-color: black;
+
+}
+.contact_form h1{
+  font-size: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+span{
+  color: #f9004d;
+  
+}
+.contact_form p{
+  color: white;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 1.1rem;
+  margin-bottom: 3.8rem;
+  
+}
+.contact_form form input, form textarea{
+  width: 100%;
+  padding: 17px;
+  border: none;
+  outline: none;
+  background: #191919;
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contact_form textarea{
+  resize: none;
+  height: 200px;
+}
+.contact_form form .btn{
+  display: inline-block;
+  background: #f9004d;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  transition: ease .20s;
+  cursor: pointer;
+  
+}
+
+.contact_form form .btn:hover{
+  border: 2px solid #f9004d;
+  background: transparent;
+  transform: scale(1.1);
+}
+
+
+.section{
+  section{
+  padding: 40px 15px;
+}
+}
+
+.services_nav{
+width: 100%;
+  padding: 75px 0px;
+  background-color: #191919;
+  
+  }
+.services{
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
+
+}
+.project_nav{
+width: 100%;
+  padding: 75px 0px;
+  background-color: #191919;
+
+}
+.title h2{
+  color: white;
+  font-size: 50px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #191919;
+  border-radius: 20px;
+  margin: 15px;
+  /*position: relative;*/
+  overflow: hidden;
+  text-align: center;
+
+}
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: #f9004d;
+
+}
+.card h5{
+  color: white;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.pra p{
+  color: #fcfc;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.card .button{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.card .button:hover{
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*I might have to remove this later*/
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+
+}
+footer{
+  position: absolute;
+  left: 48%;
+  bottom: 20px;
+  color: orange;
+}
+@media (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+
+  }
+  @media (max-width: 858px){
+    .checktbn{
+      display: block;
+    }
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 80px;
+      left: 0;
+     /* text-align: center;*/
+
+    }
+    nav ul li{
+      display: block;
+    }
+
+
+
+  }
+}
+
+/*trying out responsive*/
+
+@media screen and (max-width: ){
+
+}
+@media(max-width: 600px){
+  .container{
+      min-width: 280px;
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .section1, .section2, .section3 {
+      width: 50%;
+      height: 320px;
+    }
+   }

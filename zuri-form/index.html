@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h1>Registration form</h1>
+        <form action="login.html" method="get">
+            <div>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" placeholder="Enter first name" required></input>
+        </div>
+
+            <div class="user-info">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" placeholder="Enter last name" required></input>
+        </div>
+
+        <div class="user-info">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" placeholder="Enter phone number" required></input>
+        </div>
+
+        <div class="user-info">
+            <label for="lname">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter email address" required></input>
+        </div>
+
+        <div class="user-info">
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="date" placeholder="Enter date of birth" required></input>
+        </div>
+        <div class="user-info">
+            <label for="color">Favourite color:</label>
+          <input type="color" id="color"  value="#ff0000" placeholder="choose your favorite color">
+
+            </select>
+            <!-- <input type="text" id="color" placeholder="Enter favourite color"></input>
+ -->        </div>
+        <div class="user-info">
+            <span class="gender-title"></span>
+            <div class="gender-category">
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                    <option value="gender">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                    
+                </select>
+                 </div>
+                 </div>
+               
+             <div class="form-submit-btn">
+                <button type="submit">Register</button>
+<!--               <a href="login.html">
+                
+               <input type="submit" value="register">
+                            </a> -->
+            
+                        </div>
+            
+
+        <p>Already have an account? Login <a href="login.html">here</a></p> 
+
+            </div>
+        
+
+    </div>
+   </form>
+</body>
+</html>
